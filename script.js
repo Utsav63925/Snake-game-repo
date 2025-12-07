@@ -141,3 +141,4 @@ addEventListener("keydown",(event)=>
     else if(event.key==="ArrowLeft")
     direction="left";
 }) 
+/*newone*/
