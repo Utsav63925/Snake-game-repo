@@ -128,7 +128,7 @@ buttonRestart.addEventListener("click",()=>{
     intervalId=setInterval(()=>{
         render();
         
-    },300);
+    },300);/**/
 })
 addEventListener("keydown",(event)=>  
 {
