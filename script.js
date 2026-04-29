@@ -84,11 +84,6 @@ blocks[food.x][food.y].classList.add("food");
     {
         snakes.forEach(segment=>{
             blocks[segment.x][segment.y].classList.remove("fill")});
-    /*sabse fill htaado*/
-        /*snakes ke object--->block se css htaa do*/
-        /*alternative*/
-       /* let tail=snakes[snakes.length-1];
-        blocks[tail.x][tail.y].classList.remove("fill");*/
     snakes.unshift(head);/*new head with css add kardo*//*object+1 in snakes*/
     snakes.pop();/*object-1 in snakes*/
         }
